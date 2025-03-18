@@ -80,6 +80,7 @@
 
 }
 
+
 .section-hero {
     background-image: url(img/4c317bff847c23792d07d9fee1ddb4fa.jpeg);
     background-repeat: no-repeat;
@@ -209,4 +210,55 @@ ul {
 
 .design-item {
     margin-left: 16px;
+}
+
+.people {}
+
+
+.people-wrap {}
+
+.feedback-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.feedback {
+    
+}
+
+.looks {
+    
+}
+.img-align{
+    
+}
+
+.feedback-name {
+    font-family: "DM Serif Display", serif;
+    font-size: 25px;
+    color: var(--Blue-Charcoal);
+    line-height: 1.5;
+    width: 143px;
+}
+
+.feedback-location {
+    font-family: "Jost", sans-serif;
+    color: var(--dark-brown);
+    line-height: 1.5;
+    width: 123px;
+    font-size: 18px;
+}
+
+.feedback-response {
+    font-family: "Jost", sans-serif;
+    color: var(--dark-brown);
+    line-height: 1.5;
+    width: 244px;
+    font-size: 20px;
 }
