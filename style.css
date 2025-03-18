@@ -11,6 +11,7 @@
 
 .body {
     font-family: "Jost", sans-serif;
+    color: var(--Blue-Charcoal);
 }
 
 .logo {
@@ -57,14 +58,11 @@
     height: 177;
 }
 
-
-
-
 .main-h1 {
     font-weight: 400;
     font-size: 80px;
     font-family: "DM Serif Display", serif;
-    padding-top: 206px;
+    padding: 0;
     display: flex;
 }
 
@@ -72,6 +70,8 @@
     font-size: 22px;
     font-weight: 400;
     padding-top: 19px;
+    color: var(--Blue-Charcoal);
+    line-height: 1.5;
 
 }
 
@@ -81,7 +81,7 @@
 }
 
 .section-hero {
-    background-image: url("img/IMAGE\ \(2\).png");
+    background-image: url(img/4c317bff847c23792d07d9fee1ddb4fa.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -154,6 +154,7 @@ ul {
     font-family: "Jost", sans-serif;
     line-height: 1.5;
     color: var(--dark-brown);
+    margin-top: 42px;
 }
 
 .design-number {
@@ -162,6 +163,7 @@ ul {
     font-family: "Jost", sans-serif;
     color: var(--dark-brown);
     line-height: 1.5;
+    margin-top: 29px;
 }
 
 .design-call-text {
@@ -182,6 +184,11 @@ ul {
     background-color: var(--Blue-Charcoal);
     align-items: center;
     display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    gap: 20px;
 }
 
 .design-call {
@@ -194,7 +201,12 @@ ul {
 .design-number {
     margin: 0;
 }
-.design-wrap{
+
+.design-wrap {
     display: flex;
     align-items: center;
+}
+
+.design-item {
+    margin-left: 16px;
 }
