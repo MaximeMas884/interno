@@ -64,6 +64,7 @@
     font-family: "DM Serif Display", serif;
     padding: 0;
     display: flex;
+    margin-bottom: 19px;
 }
 
 .main-p {
@@ -72,7 +73,7 @@
     padding-top: 19px;
     color: var(--Blue-Charcoal);
     line-height: 1.5;
-
+    margin-bottom: 23px;
 }
 
 .main-div {
@@ -88,6 +89,7 @@
     background-size: cover;
     padding-top: 195px;
     padding-bottom: 250px;
+    border-end-start-radius: 290px;
 }
 
 .list-hero {
@@ -122,9 +124,19 @@
     color: var(--dark-brown);
     text-decoration: none;
     margin-top: 35px;
+<<<<<<< HEAD
+    display: flex;
+    margin-bottom: 170px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+=======
     display: inline-block;
     margin-bottom: 170px;
+>>>>>>> 8faea838c881ca97d06cee7768cbe2d99bdb3b8a
 }
+
 
 .hero-p {
     line-height: 1.5;
@@ -162,6 +174,7 @@ ul {
     line-height: 1.5;
     color: var(--dark-brown);
     margin-top: 42px;
+    margin-right: 77px;
 }
 
 .design-number {
@@ -182,6 +195,10 @@ ul {
     margin: 0;
 }
 
+.design-img {
+    margin-right: 20px;
+}
+
 .design-button {
     font-weight: 400;
     font-size: 18px;
@@ -196,6 +213,8 @@ ul {
     padding-top: 18px;
     padding-bottom: 18px;
     gap: 20px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 
 .design-call {
@@ -356,7 +375,13 @@ ul {
     font-weight: 400px;
     color: var(--Blue-Charcoal);
     font-size: 24px;
+<<<<<<< HEAD
+    margin-top: 24px;
+    margin-bottom: 10px;
+
+=======
     width: 299px;
+>>>>>>> 8faea838c881ca97d06cee7768cbe2d99bdb3b8a
 
 }
 
@@ -366,16 +391,38 @@ ul {
     font-family: "Jost", sans-serif;
     width: 114px;
     color: var(--dark-brown);
+<<<<<<< HEAD
+    margin-top: 0;
+=======
+>>>>>>> 8faea838c881ca97d06cee7768cbe2d99bdb3b8a
 }
 
 .project-button {
     border-radius: 50%;
+<<<<<<< HEAD
+
+    /* padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 30px; */
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+}
+.project-button img{
+    width: 9px;
+}
+=======
     padding-left: 30px;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 30px;
     border: 0;
 }
+>>>>>>> 8faea838c881ca97d06cee7768cbe2d99bdb3b8a
 
 .blogs-title {
     font-size: 48px;
@@ -413,7 +460,10 @@ ul {
     color: var(--dark-brown);
     font-family: "Jost", sans-serif;
     font-size: 24px;
+<<<<<<< HEAD
+=======
     width: 144px;
+>>>>>>> 8faea838c881ca97d06cee7768cbe2d99bdb3b8a
     font-weight: 400;
 }
 
@@ -432,6 +482,10 @@ ul {
     padding-right: 30px;
     border: 0;
     background-color: var(--light-white);
+<<<<<<< HEAD
+    justify-content: space-between;
+=======
+>>>>>>> 8faea838c881ca97d06cee7768cbe2d99bdb3b8a
 }
 
 .blogs-item {
@@ -469,6 +523,13 @@ ul {
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+.img-pics {
+    border-top-right-radius: 80px;
+}
+
+=======
+>>>>>>> 8faea838c881ca97d06cee7768cbe2d99bdb3b8a
 .interno-button {
     font-weight: 400;
     font-size: 18px;
@@ -479,7 +540,11 @@ ul {
     align-items: center;
     display: flex;
     padding-left: 34px;
+<<<<<<< HEAD
+    padding-right: 15px;
+=======
     padding-right: 67px;
+>>>>>>> 8faea838c881ca97d06cee7768cbe2d99bdb3b8a
     padding-top: 21px;
     padding-bottom: 23px;
     gap: 27px;
@@ -490,10 +555,16 @@ ul {
 .interno-heading {
     font-family: "DM Serif Display", serif;
     font-size: 50px;
+<<<<<<< HEAD
+    color: var(--whtie);
+    text-align: center;
+    letter-spacing: 3px;
+=======
     font-weight: 400px;
     color: var(--whtie);
     text-align: center;
 
+>>>>>>> 8faea838c881ca97d06cee7768cbe2d99bdb3b8a
 }
 
 .interno-info {
@@ -512,3 +583,148 @@ ul {
     font-family: "Jost", sans-serif;
     text-align: center;
 }
+<<<<<<< HEAD
+
+.footer-main-text {
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    color: var(--dark-brown);
+}
+
+.pages-1st {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+    line-height: 1.5;
+    color: var(--Blue-Charcoal);
+}
+
+.pages-list {
+    font-size: 22px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    color: var(--dark-brown);
+}
+
+.explore-1st {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+    line-height: 1.5;
+    color: var(--Blue-Charcoal);
+}
+
+.explore-list {
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--dark-brown);
+    font-family: "Jost", sans-serif;
+
+}
+
+.contect-1st {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+    line-height: 1.5;
+    color: var(--dark-brown);
+}
+
+.contect-list {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    line-height: 1.5;
+    color: var(--dark-brown);
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 129px;
+    margin-bottom: 110px;
+}
+
+.footer-apps {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-1 {
+    width: 330px;
+}
+
+.Contect-main {
+    width: 315px;
+}
+
+.pages-list {
+    margin-top: 30px;
+}
+
+.contect-list {
+    margin-top: 30px;
+}
+
+.explore-list {
+    margin-top: 30px;
+}
+
+.footer-text {
+    line-height: 33px;
+    font-family: "Jost", sans-serif;
+    color: var(--dark-brown);
+    line-height: 1.5px;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 36px;
+}
+
+.footer-yellow {
+    color: var(--brown);
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 35.2px;
+    border-top: solid lightgrey;
+}
+
+.numbers-main {
+    font-family: "DM Serif Display", serif;
+    font-size: 85px;
+    line-height: 1.5px;
+    color: var(--brown);
+}
+
+.numbers-sub {
+    font-size: 22px;
+    line-height: 1.5px;
+    font-family: "Jost", sans-serif;
+    color: var(--dark-brown);
+}
+
+.numbers-all {
+    display: flex;
+    text-align: center;
+}
+
+.numbers-list {
+    width: 288px;
+}
+
+.numbers {
+    background-color: var(--light-white);
+    padding-top: 139px;
+    padding-bottom: 140px;
+    margin-top: 80px;
+    margin-bottom: 130px;
+}
+
+.numbers-list:not(:last-child) {
+    border-right: solid var(--brown);
+}
+=======
+>>>>>>> 8faea838c881ca97d06cee7768cbe2d99bdb3b8a
