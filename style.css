@@ -329,7 +329,7 @@ ul {
 .heading-proj {
     font-size: 47px;
     font-family: "DM Serif Display", serif;
-    font-weight: 400px;
+    font-weight: 400;
     color: var(--Blue-Charcoal);
     width: 331px;
     margin: 0 auto;
@@ -367,7 +367,7 @@ ul {
 
 .projects-h4 {
     font-family: "DM Serif Display", serif;
-    font-weight: 400px;
+    font-weight: 400;
     color: var(--Blue-Charcoal);
     font-size: 24px;
    margin-top: 24px;
@@ -441,7 +441,7 @@ border: 0;
 .blogs-dates {
     color: var(--dark-brown);
     font-family: "Jost", sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     width: 144px;
     font-weight: 400;
 }
@@ -532,7 +532,8 @@ border: 0;
     font-size: 50px;
     color: var(--whtie);
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
 }
 
 .interno-info {
@@ -664,6 +665,7 @@ border: 0;
     font-size: 85px;
     line-height: 1.5px;
     color: var(--brown);
+    font-weight: 400;
 }
 
 .numbers-sub {
